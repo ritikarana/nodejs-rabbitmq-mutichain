@@ -1,0 +1,40 @@
+{
+  "name": "medium-08_mq",
+  "version": "1.0.0",
+  "description": "A rest api boiler plate with db, request and response handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankaj805/medium-08_mq.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nodejs",
+    "expressjs",
+    "rabbitmq"
+  ],
+  "author": "Pankaj Panigrahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankaj805/medium-08_mq/issues"
+  },
+  "homepage": "https://github.com/pankaj805/medium-08_mq#readme",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "babel": "^6.23.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4",
+    "multichain-node": "^2.2.0-version1.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/register": "^7.8.6"
+  }
+}

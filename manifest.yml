@@ -1,0 +1,5 @@
+applications:
+- name: ritika-mq-app
+memory: 256M
+command: node index.js
+buildpack: https://github.com/cloudfoundry/nodejs-buildpack 
